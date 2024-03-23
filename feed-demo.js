@@ -80,9 +80,11 @@ var Feeds = function() {
       document.body.appendChild(script).parentNode.removeChild(script);
     }
 
-    loadScript(`${settings.url}feeds/posts/default${feedLabel ? `/-/${feedLabel}` : ""}?alt=json-in-script&callback=ifeeds_${feedLabel}&max-results=${settings.max}`);
+    loadScript(`${settings.url}feeds/posts/default${feedLabel ? `/-/${feedLabel}` : ""}?alt=json-in-script&callback=window.Feeds.callbacks['${feedLabel}']&max-results=${settings.max}`);
 
-    window[`ifeeds_${feedLabel}`] = function(data) {
+    window.Feeds.callbacks = window.Feeds.callbacks || {};
+
+    window.Feeds.callbacks[feedLabel] = function(data) {
       if (data.feed.entry && feedsContainer) {
         if (settings.styles) {
           injectStyles(`
@@ -277,8 +279,8 @@ var Feeds = function() {
     });
   }
 
-  return {
-    initPlugin,
-    initCustomizer
-  };
+  window.Feeds = window.Feeds || {};
+  window.Feeds.callbacks = {};
+  window.Feeds.initPlugin = initPlugin;
+  window.Feeds.initCustomizer = initCustomizer;
 }();
