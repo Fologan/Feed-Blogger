@@ -37,14 +37,25 @@ En donde `data-section-label` es la etiqueta que se busca filtrar y `data-number
 
 
 Un caso de uso sería el siguiente:
-![[Captura de pantalla 2024-03-31 130752.png]]
+<br>
+<img src="image/Captura de pantalla 2024-03-31 130752.png">
 
 La etiqueta en este caso es "famosos" y muestran "3" post
 
 
 Otro caso sería el siguiente:
-![[Captura de pantalla 2024-03-31 132045.png]]
+<br>
+<img src="image/Captura de pantalla 2024-03-31 132045.png">
 
 En este caso el título a su vez es un enlace a todas las entradas con esa etiqueta `<a href="/search/label/juegos">🎮👾 Juegos</a>` incluso si tu plantilla te lo permite puedes usar sufijos de URL para optimizar el resultado, tales como `<a href="/search/label/juegos?max-results=12">🎮👾 Juegos</a>` el cual (en mi caso) muestra un máximo de 12 resultados por página.
 
 Un agradecimiento a Daniel de [ZKreations.com/](https://www.zkreations.com/) que me ayudó a mejorar sustancialmente el código.
+
+
+Imagen Referencia 1:
+<br>
+<img src="image/Captura de pantalla 2024-03-31 124936.png">
+
+Imagen Referencia 2:
+<br>
+<img src="image/Captura de pantalla 2024-03-31 125813.png">
