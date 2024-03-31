@@ -5,7 +5,7 @@
 ## Instalación
 
 ### Paso 1
-Si tienes la oportunidad de poner el siguiente código dentro de un widget arriba del todo sin necesidad de entrar a "Editar HTML" hazlo, es la manera más fácil y segura, para no afectar tu plantilla de Blogger de lo contrario pega el siguiente código antes de la etiqueta  `</head>` : [Clic para ver imagen de referencia](https://github.com/Fologan/Feed-Blogger/edit/main/README.md#imagen-referencia-para-paso-1)
+Si tienes la oportunidad de poner el siguiente código dentro de un widget arriba del todo sin necesidad de entrar a "Editar HTML" hazlo, es la manera más fácil y segura, para no afectar tu plantilla de Blogger de lo contrario pega el siguiente código antes de la etiqueta  `</head>` : [Clic para ver imagen de referencia](https://github.com/Fologan/Feed-Blogger?tab=readme-ov-file#imagen-referencia-para-paso-1)
 
 
 ```
@@ -13,7 +13,7 @@ Si tienes la oportunidad de poner el siguiente código dentro de un widget arrib
 ```
 
 ### Paso 2
-De igual manera si tienes la posibilidad de pegar este código en un widget en el footer como ultimo widget de toda la página estaría perfecto, sino, buscamos la etiqueta `</body>` y justo por encima, pegamos el código. [Clic para ver imagen de referencia](https://github.com/Fologan/Feed-Blogger/edit/main/README.md#imagen-referencia-para-paso-2)
+De igual manera si tienes la posibilidad de pegar este código en un widget en el footer como ultimo widget de toda la página estaría perfecto, sino, buscamos la etiqueta `</body>` y justo por encima, pegamos el código. [Clic para ver imagen de referencia](https://github.com/Fologan/Feed-Blogger?tab=readme-ov-file#imagen-referencia-para-paso-2)
 
 
 
