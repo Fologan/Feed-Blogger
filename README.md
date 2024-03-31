@@ -61,4 +61,6 @@ En este caso el título a su vez es un enlace a todas las entradas con esa etiqu
 <br>
 <img src="image/Captura de pantalla 2024-03-31 125813.png">
 <br><br>
-Un agradecimiento a Daniel de [ZKreations.com/](https://www.zkreations.com/) que me ayudó a mejorar sustancialmente el código.
+<p> Un agradecimiento a Daniel de <a href="https://www.zkreations.com" target="_blank">zkreations.com</a> que me ayudó a mejorar sustancialmente el código.</p>
+
+
